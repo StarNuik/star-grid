@@ -1,1 +1,36 @@
-.bg-r{background-color:red}.bg-g{background-color:#0f0}.bg-b{background-color:#00f}.bg-y{background-color:#ff0}.bg-c{background-color:#0ff}.bg-m{background-color:#f0f}.sp-1{height:25px}.sp-2{height:50px}.sp-3{height:75px}.sp-4{height:100px}.sp-5{height:125px}.sp-6{height:150px}
+.bg-r {
+  background-color: #f00;
+}
+.bg-g {
+  background-color: #0f0;
+}
+.bg-b {
+  background-color: #00f;
+}
+.bg-y {
+  background-color: #ff0;
+}
+.bg-c {
+  background-color: #0ff;
+}
+.bg-m {
+  background-color: #f0f;
+}
+.sp-1 {
+  height: 25px;
+}
+.sp-2 {
+  height: 50px;
+}
+.sp-3 {
+  height: 75px;
+}
+.sp-4 {
+  height: 100px;
+}
+.sp-5 {
+  height: 125px;
+}
+.sp-6 {
+  height: 150px;
+}
