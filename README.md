@@ -1,2 +1,2 @@
-# star-grid
-My small take at css grid's on less
+# Star's Grid #
+My small take at css grid on less

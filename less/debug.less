@@ -1,0 +1,27 @@
+@bgc: background-color;
+
+.bg-r {
+    @{bgc}: #f00;
+}
+.bg-g {
+    @{bgc}: #0f0;
+}
+.bg-b {
+    @{bgc}: #00f;
+}
+.bg-y {
+    @{bgc}: #ff0;
+}
+.bg-c {
+    @{bgc}: #0ff;
+}
+.bg-m {
+    @{bgc}: #f0f;
+}
+.generate-spacers(@ammount, @indent, @i: 1) when (@i < @ammount) {
+    .sp-@{i} {
+        height: @indent * @i;
+    }
+    .generate-spacers(@ammount, @indent, (@i + 1));
+}
+.generate-spacers(7, 25px);
