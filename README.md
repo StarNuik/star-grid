@@ -1,5 +1,5 @@
 # Star's Grid #
-My small take at css grid on less
+My small take at a responsive css grid on less
 
 ## Usage #
 ### All of the following stuff is added as a class #
