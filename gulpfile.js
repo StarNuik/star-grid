@@ -2,6 +2,7 @@ const
     gulp = require("gulp"),
     gulpLess = require("gulp-less"),
     gulpCss = require("gulp-csso"),
+    gulpRename = require("gulp-simple-rename"),
     del = require("del"),
     srcPath = "./less";
 
@@ -15,7 +16,11 @@ gulp.task("build", ["buildLess"]);
 gulp.task("buildLess", () => {
     return gulp.src(srcPath + "/**/*.less")
         .pipe(gulpLess())
+        .pipe(gulp.dest("./css"))
         .pipe(gulpCss())
+        .pipe(gulpRename((name) => {
+            return name.replace(/(css)$/, "min.css")
+        }))
         .pipe(gulp.dest("./css"))
 });
 
