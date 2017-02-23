@@ -1,0 +1,32 @@
+{
+  "name": "star-grid",
+  "version": "1.0.0",
+  "description": "Simple less-based css grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StarNuik/star-grid.git"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "star",
+    "less"
+  ],
+  "author": "StarNuik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StarNuik/star-grid/issues"
+  },
+  "homepage": "https://github.com/StarNuik/star-grid#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-csso": "^2.0.0",
+    "gulp-less": "^3.3.0"
+  }
+}
